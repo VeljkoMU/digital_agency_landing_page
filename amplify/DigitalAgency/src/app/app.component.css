@@ -1,0 +1,55 @@
+.hero {
+    margin-bottom: 75px;
+}
+
+.company {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-between;
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+    margin-top: 140px;
+}
+
+.company-text {
+    width: 701px;
+}
+
+.company-title {
+    text-align: end;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.company-string {
+    margin-top: 36px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: start;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+    margin-top: 200px;
+    border-top: 0.7px solid #8e8e8e8a;
+    padding-top: 140px;
+}
+
+.glows {
+    position: absolute;
+    height: 412px;
+    width: 412px;
+    background-color: #C6FB5008;
+    filter: blur(150px);
+    z-index: 1;
+}

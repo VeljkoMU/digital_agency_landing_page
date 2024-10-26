@@ -1,0 +1,33 @@
+.action {
+    margin-top: 200px;
+    padding-top: 140px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: start;
+    justify-content: center;
+    border-top: 0.7px solid #8e8e8e98;
+}
+
+.title {
+    color: white;
+    font-size: 112px;
+    text-align: center;
+}
+
+.cta {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 52px;
+}
+
+.images {
+    margin-left: 24px;
+}
+
+.grow-proj {
+    width: 241px;
+}

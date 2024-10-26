@@ -1,0 +1,64 @@
+/* You can add global styles to this file, and also import other style files */
+html {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    overflow-x: hidden;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #151515;
+}
+
+.max-width {
+}
+
+.padding-standard {
+    padding-left: 11%;
+    padding-right: 11%;
+}
+
+.button-link {
+    font-size: 16px;
+    font-weight: 700;
+    transition: 0.5s ease-in-out;
+}
+
+.button-link:hover {
+    color: #C6FB50;
+    text-shadow: 1px 1px 50px #C6FB50;
+}
+
+.button-accent {
+    width: 104px;
+    height: 43px;
+    color: #151515;
+    background-color: #C6FB50;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    transition: 0.5s ease-in-out;
+}
+
+.button-accent:hover {
+    box-shadow: 1px 1px 50px #C6FB50;
+}
+
+.custom-cursor:hover {
+    cursor: url("./assets/cursor.png"), auto;
+}
+
+.margin-standard {
+    margin-left: 11%;
+    margin-right: 11%;
+}
+
+.bold {
+    font-weight: 700;
+}

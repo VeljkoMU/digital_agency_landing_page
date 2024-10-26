@@ -1,0 +1,23 @@
+.services {
+    width: 48%;
+    min-width: 500px;
+}
+.item {
+    width: 100%;
+    border-bottom: 0.7px solid #8e8e8e8a;
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.5s ease-in-out;
+}
+
+.item:hover {
+    text-shadow: 1px 1px 50px #C6FB50;
+}

@@ -1,0 +1,7 @@
+<div class="stack">
+    @for (item of images(); track item; let i = $index) {
+        <div class="img" [style.background-image]="'url(' + item + ')'" [style.transform]="'translateX(' + (i * -20) + 'px)'" [style.z-index]="'-' + i">
+
+        </div>
+    }
+</div>

@@ -1,0 +1,81 @@
+.marqee {
+    height: 100px;
+    border-top: 0.7px solid #8E8E8E;
+    border-bottom: 0.7px solid #8E8E8E;
+    background-color: #0f0e0e91;
+    backdrop-filter: blur(3px);
+    color: white;
+    font-size: 70px;
+    font-weight: 300;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+  @keyframes marquee {
+    0% { left: 100%; }
+    50% { left: -100%; }
+    100% {left: -100%}
+  }
+
+  .marqee > * {
+    width: 250px;
+    height: 100px;
+    background-repeat: no-repeat;
+  }
+  
+  
+  /* would need to be adjusted depending on time */
+  .marqueeone{
+    background-image: url(../../../assets/1.png);
+    animation: marquee 80s linear infinite
+  }
+  
+  .marqueetwo{
+    background-image: url(../../../assets/2.png);
+    animation: marquee 80s linear 5s infinite 
+  }
+  
+  .marqueethree{
+    background-image: url(../../../assets/3.png);
+    animation: marquee 80s linear 10s infinite
+  }
+  
+  .marqee .marqueefour{
+    background-image: url(../../../assets/4.png);
+    animation: marquee 80s linear 15s infinite
+  }
+
+  .marqueefive{
+    background-image: url(../../../assets/5.png);
+    animation: marquee 80s linear 20s infinite
+  }
+
+  .marqueesix{
+    animation: marquee 80s linear 25s infinite
+  }
+  
+  /* even out the elements */
+  .marqee div {
+    position: absolute;
+    width: 100%;
+    left: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .marqee {
+      height: 50px;
+      border-top: 0.5px solid #A8C2BA;
+      border-bottom: 0.5px solid #A8C2BA;
+      background-color: #0f0e0e91;
+      backdrop-filter: blur(3px);
+      color: white;
+      font-size: 15px;
+      font-weight: 300;
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+  }
+  }
